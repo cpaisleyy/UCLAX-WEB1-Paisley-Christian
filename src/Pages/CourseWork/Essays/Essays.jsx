@@ -10,13 +10,13 @@ const Essays = () => {
             <Essay question="Q1: Explain the difference between HTML, CSS and JavaScript.">
                 1. This is my answer
             </Essay>
-            <Essay question="Q1: What is the difference between Git and Github?">
+            <Essay question="Q2: What is the difference between Git and Github?">
                 2. This is my answer
             </Essay>
-            <Essay question="Q1: What is the difference between JQuery and React?">
+            <Essay question="Q3: What is the difference between JQuery and React?">
                 3. This is my answer
             </Essay>
-            <Essay question="Q1: The fourth one">4. This is my answer</Essay>
+            <Essay question="Q4: The fourth one">4. This is my answer</Essay>
         </EssaysStyled>
     );
 };

@@ -9,7 +9,6 @@ const AccoladeList = ({ member }) => {
             {member.accolades.map((accolade, idx) => {
                 return <Accolade key={idx} accolade={accolade} />;
             })}
-            <Accolade />
         </AccoladeListStyled>
     );
 };

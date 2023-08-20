@@ -229,8 +229,52 @@ const Essays = () => {
                     </li>
                 </ul>
             </Essay>
-            <Essay question="Q5: TWhat is the difference between Absolute, Root and Document Relative linking?">
-                hi
+            <Essay question="Q5: What is the difference between Absolute, Root and Document Relative linking?">
+                <b>Absolute</b>
+                <ul>
+                    <li>
+                        Best used for external links
+                        <ul>
+                            <li>Resources on other sites</li>
+                            <li>Including style sheets</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Includes the website's address
+                        <ul>
+                            <li>Global address of the resource</li>
+                            <li>
+                                Includes protocol (https) and host (google.com)
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <b>Relative</b>
+                <ul>
+                    <li>Relative to the current directory you are in</li>
+                    <li>
+                        Path relative URL
+                        <ul>
+                            <li>Can be easily broken</li>
+                        </ul>
+                        <li>Root relative URL</li>
+                        <ul>
+                            <li>Always relative to the root of the site</li>
+                            <li>Domains can change</li>
+                        </ul>
+                        <li>Protocol relative URL</li>
+                        <li>
+                            Document relative
+                            <ul>
+                                <li>Relative to the document you are on</li>
+                                <li>
+                                    More freedom when moving folders. All links
+                                    within the folder stay the same
+                                </li>
+                            </ul>
+                        </li>
+                    </li>
+                </ul>
             </Essay>
             <Essay question="Q6: What is the difference between jpg, gif, png and svg images?">
                 <b>JPG (JPEG)</b>
@@ -273,7 +317,95 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay question="Q7: Define the following Agile roles: Product Owner, Product Manager, Business Analyst, Scrum Master, UX designer, Developer/Engineer, QA/SDET, and DevOps.">
-                7. This is my answer
+                <p>
+                    <b>Product Owner</b>
+                </p>
+                <p>
+                    Product owners manage the product roadmap and prioritize the
+                    backlog. They also define the product vision and manage
+                    stakeholders. They have the authority to make key decisions
+                    and in particular, are responsible for making sure the team
+                    is working on the right items. It is helpful for the product
+                    owner to be able to communicate effectively with
+                    stakeholders.
+                </p>
+                <p>
+                    <b>Product Manager</b>
+                </p>
+                <p>
+                    A product manager is the person who identifies the customer
+                    need and the larger business objectives that a product or
+                    feature will fulfill, articulates what success looks like
+                    for a product, and rallies a team to turn that vision into a
+                    reality
+                </p>
+                <p>
+                    <b>Business Analyst</b>
+                </p>
+                <p>
+                    They are responsible for defining the problems that business
+                    faces by conducting in-depth analysis and investigation of
+                    the market and gathering valuable technical and
+                    non-technical information. Once they fully understand the
+                    challenges, they outline the requirements for a solution and
+                    make sure that delivered proposals meet business
+                    requirements.
+                </p>
+                <p>
+                    <b>Scrum Master</b>{" "}
+                </p>
+                <p>
+                    Scrum masters facilitate scrums – the Agile framework that
+                    focuses on time-boxed iterations called sprints. Scrum
+                    masters act as coaches to the rest of the team. They
+                    facilitate daily stand-up meetings and oversee sprint
+                    planning meetings where they help to keep the team focused
+                    and prevent scope creep. They manage sprint reviews and
+                    gather feedback, and they also remove roadblocks that could
+                    hamper the team’s productivity.
+                </p>
+                <p>
+                    <b>UX Designer</b>
+                </p>
+                <p>
+                    The UX designer’s role is to make products, services, and
+                    technology usable, enjoyable, and accessible for humans. UX
+                    designers tend to work as part of a wider product team and
+                    often find themselves bridging the gap between the user, the
+                    development team, and key business stakeholders.
+                </p>
+                <p>
+                    <b>Developer/Engineer</b>
+                </p>
+                <p>
+                    The branch of computer science that deals with the design,
+                    development, testing, and maintenance of software
+                    applications. Software engineers apply engineering
+                    principles and knowledge of programming languages to build
+                    software solutions for end users. Developers will build your
+                    product, and they are responsible for programming, testing,
+                    and debugging the product.
+                </p>
+                <p>
+                    <b>QA/SDET</b>
+                </p>
+                <p>
+                    Responsible for inspecting, monitoring, and proposing areas
+                    to correct or improve within a product or solution. By doing
+                    so, the development team can follow the suggestions of a QA
+                    Specialist and meet established quality standards with each
+                    increment.
+                </p>
+                <p>
+                    <b>DevOps</b>
+                </p>
+                <p>
+                    DevOps is a set of practices, tools, and a cultural
+                    philosophy that automate and integrate the processes between
+                    software development and IT teams. It emphasizes team
+                    empowerment, cross-team communication and collaboration, and
+                    technology automation.
+                </p>
             </Essay>
         </EssaysStyled>
     );

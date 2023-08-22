@@ -6,4 +6,6 @@ const Accolade = ({ accolade }) => {
 
 export default Accolade;
 
-const AccoladeStyled = styled.li``;
+const AccoladeStyled = styled.p`
+    margin: 0px;
+`;

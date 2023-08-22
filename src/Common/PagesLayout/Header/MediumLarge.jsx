@@ -32,7 +32,7 @@ const MediumLarge = () => {
 export default MediumLarge;
 
 const MediumLargeStyled = styled.div`
-    color: white;
+    color: #ffffff;
 
     .row {
         display: grid;
@@ -63,12 +63,12 @@ const MediumLargeStyled = styled.div`
 
             line-height: 30px;
             margin: 0px 0px 20px 5px;
-            border-bottom: solid 3px #84d4d4;
+            border-bottom: solid 3px #d4b784;
 
             text-align: center;
             font-size: 12px;
             opacity: 0.8;
-            color: #84d4d4;
+            color: #976104;
             font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;
@@ -80,8 +80,8 @@ const MediumLargeStyled = styled.div`
             }
 
             &.active {
-                color: white;
-                border-bottom-color: white;
+                color: #000000;
+                border-bottom-color: #000000;
             }
         }
     }

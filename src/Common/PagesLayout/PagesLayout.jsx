@@ -19,7 +19,7 @@ export default PagesLayout;
 
 const PagesLayoutStyled = styled.div`
     main {
-        background-color: #fff;
+        background-color: #f8f6ed;
         min-height: 600px;
         .Inset {
             padding: 50px 10px;

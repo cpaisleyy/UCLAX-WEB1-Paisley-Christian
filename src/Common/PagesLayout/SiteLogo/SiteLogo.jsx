@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 /* Images ---------------------------*/
-import logoUrl from "./crossfit-decimate-logo.png";
+import logoUrl from "./Logo + slogan resize.png";
 
 const SiteLogo = () => {
     return (
@@ -20,7 +20,7 @@ const SiteLogoStyled = styled.div`
     height: 100%;
 
     img {
-        width: 100%;
-        height: auto;
+        width: 300px;
+        height: 300px;
     }
 `;

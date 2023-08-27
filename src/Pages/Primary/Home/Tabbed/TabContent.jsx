@@ -21,7 +21,7 @@ export default TabContent;
 
 const TabContentStyled = styled.div`
     padding: 20px;
-    background-color: teal;
+    background-color: #d4b784;
 
     @media ${breakpoints.isMediumAndUp} {
         display: grid;
@@ -42,12 +42,12 @@ const TabContentStyled = styled.div`
     .column2 {
         h3 {
             font-size: 30px;
-            color: white;
+            color: #000000;
         }
 
         p {
             font-size: 18px;
-            color: #8cc6c6;
+            color: #000000;
             margin-bottom: 20px;
             line-height: 150%;
         }

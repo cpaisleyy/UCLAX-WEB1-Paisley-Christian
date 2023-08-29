@@ -14,5 +14,5 @@ export default defineConfig({
     build: {
         outDir: "./build",
     },
-    base: "/{{UCLAX-WEB1-Paisley-Christian}}/",
+    base: "/UCLAX-WEB1-Paisley-Christian/",
 });

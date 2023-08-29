@@ -81,15 +81,15 @@ const SmallStyled = styled.div`
 
         z-index: 1000;
 
-        background-color: #034443;
+        background-color: #faf3d5;
 
         a {
             display: block;
 
             padding: 10px;
-            border-bottom: 1px solid #999999;
+            border-bottom: 1px solid #d4b784;
 
-            color: white;
+            color: #000000;
             text-decoration: none;
 
             &:hover,

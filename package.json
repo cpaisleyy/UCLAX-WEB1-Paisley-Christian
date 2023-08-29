@@ -3,7 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://{{cpaisleyy}}.github.io/{{UCLAX-WEB1-Paisley-Christian}}",
+    "homepage": "https://cpaisleyy.github.io/{{UCLAX-WEB1-Paisley-Christian}}",
     "scripts": {
         "start": "vite",
         "build": "vite build",

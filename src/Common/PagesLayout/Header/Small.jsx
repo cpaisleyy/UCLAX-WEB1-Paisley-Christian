@@ -96,7 +96,7 @@ const SmallStyled = styled.div`
             &:hover,
             &:active,
             &:focus {
-                background-color: #043434;
+                background-color: #976104;
             }
         }
     }

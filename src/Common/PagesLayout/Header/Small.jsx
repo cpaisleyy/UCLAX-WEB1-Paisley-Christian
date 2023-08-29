@@ -41,16 +41,16 @@ const Small = () => {
             {isMenuShowing && (
                 <nav className="mainMenu">
                     <NavLink onClick={hideMenu} to={"/"} end>
-                        Home
+                        <b>Home</b>
                     </NavLink>
                     <NavLink onClick={hideMenu} to={"/staff"}>
-                        About Us
+                        <b>About Us</b>
                     </NavLink>
                     <NavLink onClick={hideMenu} to={"/contact"}>
-                        Contact
+                        <b>Contact</b>
                     </NavLink>
                     <NavLink onClick={hideMenu} to={"/course-work"}>
-                        Course
+                        <b>Course</b>
                     </NavLink>
                 </nav>
             )}
@@ -78,6 +78,7 @@ const SmallStyled = styled.div`
         top: 300px;
         right: 0px;
         bottom: 0px;
+        font-size: 20px;
 
         z-index: 1000;
 
@@ -87,7 +88,7 @@ const SmallStyled = styled.div`
             display: block;
 
             padding: 10px;
-            border-bottom: 1px solid #d4b784;
+            border-bottom: 3px solid #d4b784;
 
             color: #000000;
             text-decoration: none;

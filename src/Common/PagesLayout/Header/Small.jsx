@@ -79,6 +79,8 @@ const SmallStyled = styled.div`
         right: 0px;
         bottom: 0px;
 
+        z-index: 1000;
+
         background-color: #034443;
 
         a {

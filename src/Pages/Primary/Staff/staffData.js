@@ -14,10 +14,10 @@ export const staffData = [
     {
         id: 1,
         image: image1,
-        name: "Mark Esqueda",
-        yearStarted: 2013,
+        name: "Danielle Brooks",
+        yearStarted: 2020,
         accolades: [
-            "Co-Owner, PageMeta Coach ",
+            "Co-Founder, PageMeta Coach ",
             "Program Designer CrossFit Decimate ",
             "Decimate Performance Training ",
             "CCFT/L-3 Certified CrossFit Trainer",
@@ -26,10 +26,10 @@ export const staffData = [
     {
         id: 2,
         image: image2,
-        name: "Brenda Esqueda",
-        yearStarted: 2013,
+        name: "Da'Vonne Rogers",
+        yearStarted: 2020,
         accolades: [
-            "Co-Owner & Coach",
+            "Co-Founder & Coach",
             "CF-L2",
             "USAW L-1",
             "Precision Nutrition L-1",
@@ -38,8 +38,8 @@ export const staffData = [
     {
         id: 3,
         image: image3,
-        name: "Kara Smith",
-        yearStarted: 2012,
+        name: "Xavier Pranther",
+        yearStarted: 2023,
         accolades: [
             "Lead Coach & Operations Assistant   ",
             "​CF-L2 Trainer",

@@ -20,6 +20,12 @@ export default StaffList;
 
 const StaffListStyled = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
     gap: 1rem;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 `;

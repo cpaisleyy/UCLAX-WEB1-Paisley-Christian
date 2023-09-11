@@ -1,5 +1,5 @@
 import image1 from "./img/alex-starnes-WYE2UhXsU1Y-unsplash.jpg";
-import image2 from "./img/jeffery-erhunse-vp9mRauo68c-unsplash.jpg";
+import image2 from "./img/tahiti-spears-Me-MSv_dUNU-unsplash.jpg";
 import image3 from "./img/brooke-cagle-Nm70URdtf3c-unsplash.jpg";
 import image4 from "./img/Brook.jpg";
 import image5 from "./img/Amber-Dyett.jpg";

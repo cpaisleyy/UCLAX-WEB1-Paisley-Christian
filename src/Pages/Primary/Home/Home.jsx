@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Inset from "@/Common/PagesLayout/Inset";
 import Slideshow from "./Slideshow/Slideshow";
 import Tabbed from "./Tabbed/Tabbed";
+import YouTube from "./YouTube/YouTube";
 
 const Home = () => {
     return (
@@ -13,6 +14,8 @@ const Home = () => {
             <Inset>
                 <Tabbed />
             </Inset>
+            <h1>Hair Care Tips!</h1>Hair
+            <YouTube videoId="O5nUpvU_Rxg" />
         </HomeStyled>
     );
 };

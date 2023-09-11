@@ -11,4 +11,9 @@ const Slide = ({ slide }) => {
 
 export default Slide;
 
-const SlideStyled = styled.div``;
+const SlideStyled = styled.div`
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+`;

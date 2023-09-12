@@ -15,7 +15,7 @@ const Home = () => {
             <Inset>
                 <Tabbed />
             </Inset>
-            <h3>Hair Care Tips!</h3>
+            <h4>Hair Care Tips!</h4>
             <h6>
                 Unlock the secrets to healthy, beautiful hair with insights from
                 our trusted brand partners. Discover easy and effective tips
@@ -41,7 +41,8 @@ const HomeStyled = styled.div`
         display: none;
     }
 
-    h3 {
+    h4 {
+        font-size: 30px;
         text-align: center;
     }
 

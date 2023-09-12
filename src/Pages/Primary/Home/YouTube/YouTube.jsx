@@ -57,15 +57,20 @@ class HairVideo1 extends React.Component {
 
         const { videoId } = this.props;
         return (
-            <YouTube
-                videoId="fCHUeASiayY"
-                opts={opts}
-                onReady={this.videoOnReady}
-            />
+            <YouTubeStyled>
+                <YouTube
+                    videoId="fCHUeASiayY"
+                    opts={opts}
+                    onReady={this.videoOnReady}
+                />
+            </YouTubeStyled>
         );
     }
 }
 
 export default YouTube;
 
-const YouTubeStyled = styled.div``;
+const YouTubeStyled = styled.div`
+    display: flex;
+    justify-content: center;
+`;

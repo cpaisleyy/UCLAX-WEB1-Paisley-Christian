@@ -2,15 +2,16 @@ import styled from "styled-components";
 
 /* Components ---------------------------*/
 import Inset from "@/Common/PagesLayout/Inset";
-import Slideshow from "./Slideshow/Slideshow";
+// import Slideshow from "./Slideshow/Slideshow";
 import Tabbed from "./Tabbed/Tabbed";
 import YouTube from "./YouTube/YouTube";
+import HeroImage from "./Slideshow/img/blk women hairtsyle blue bckg.jpg";
 
 const Home = () => {
     return (
         <HomeStyled className="Home">
             <h1>Home</h1>
-            <Slideshow />
+            <img src={HeroImage} alt="" />
             <Inset>
                 <Tabbed />
             </Inset>
@@ -50,5 +51,9 @@ const HomeStyled = styled.div`
         padding-left: 400px;
         padding-right: 400px;
         padding-top: 30px;
+    }
+
+    img {
+        max-width: 100%;
     }
 `;
